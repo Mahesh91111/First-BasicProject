@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reg.form</title>
+  </head>
+  <body>
+    <form style="width: 420px;">
+      <h1>Course Registration Form</h1>
+      <fieldset>
+        <legend>personal Details</legend>
+        <table>
+        <tr>
+          <td><label for="First Name" required>FirstName</label></td>
+          <td><input type="text" placeholder="Enter your Name" /><br /></td>
+        </tr>
+        <tr>
+          <td><label for="Surname">Surname</label></td>
+          <td><input type="text" placeholder="enter your surname" /><br /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="MobileNo">MobileNo</label>
+          </td>
+          <td><input type="tel" /><br /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email</label>
+          </td>
+          <td><input type="Email" placeholder="Enter your Email" /><br /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Password">Password</label>
+          </td>
+          <td><input type="password" placeholder="Enter password" /><br /></td>
+        </tr>
+        <tr>
+          <td><label for="confirmPassword">conformPassword</label></td>
+          <td><input type="text" /><br /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="DOB">DOB</label>
+          </td>
+          <td><input type="date" /><br /></td>
+        </tr>
+        <tr>
+          <!-- <td><input type="date" /><br /></td> -->
+          <td>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender" />
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" />
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" />
+            <label for="Custom">Custom</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="SelectCountry">SelectCountry</label></td>
+          <td>
+            <select>
+              <option value="SelectCountry">-----selectcountry-------</option>
+              <option value="INDIA">INDIA</option>
+              <option value="USA">USA</option>
+              <option value="UK">UK</option></select
+            ><br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Upload Picture">Upload Picture</label></td>
+          <td><input type="file" /><br /></td>
+        </tr>
+      </table>
+      </fieldset>
+      <input type="Reset" />
+      <input type="SUBMIT">
+    </form>
+  </body>
+</html>
